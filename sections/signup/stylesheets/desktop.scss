@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .leftCol h2 {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 22px;
+  }
+  .inputForm {
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    padding: 2px;
+    padding-bottom: 2px;
+    height: 45px;
+    text-indent: 5px;
+    outline: none;
+    width: 100%;
+  }
+  .signup-btn {
+    background-color: #db4c3f;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    width: 150%;
+  }
+  .form_row {
+    position: relative;
+  }
+  .form span {
+    position: absolute;
+    color: #db4c3f;
+    font-size: 11px;
+    top: 43px;
+    width: 100%;
+    left: 8px;
+  }
+  .form label{
+      position: absolute;
+      left: 8px;
+      font-size: 12px;
+      padding: 2px 0px;
+  }
+  .form input::placeholder {
+    font-size: 12px;
+  }
+  .inputForm:focus {
+    border: 1px solid gainsboro;
+  }
+  .form button {
+    height: 45px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    margin: 15px 0px;
+  }
+  .rightCol img {
+    width: 350px;
+  }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin: 100px 0px;
+  }
+  .disabled-btn{
+      opacity: .5 !important;
+  }
